@@ -1,0 +1,6 @@
+xinput
+
+
+Install xautomation package
+
+xte 'mouseclick 2'

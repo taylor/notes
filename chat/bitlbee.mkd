@@ -1,0 +1,6 @@
+#
+
+## Groups
+
+ * http://wiki.bitlbee.org/JabberGroupchats
+ * http://wiki.bitlbee.org/GtalkGroupchats
