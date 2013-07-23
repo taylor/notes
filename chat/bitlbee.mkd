@@ -4,3 +4,7 @@
 
  * http://wiki.bitlbee.org/JabberGroupchats
  * http://wiki.bitlbee.org/GtalkGroupchats
+
+```
+ echo "chat add 1 private-chat-$(uuidgen)@groupchat.google.com channel_name"
+```

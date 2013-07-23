@@ -1,0 +1,30 @@
+#
+
+## Switching devices
+
+*NOTE:*
+
+ALSA requires restarting the program to switch device... or I should say unless the program itself supports switching devices you must restart the program.
+
+Create ~/.asoundrc with
+
+```
+pcm.!default {
+  type plug
+  slave.pcm {
+    @func getenv
+    vars [ ALSAPCM ]
+    default "front"
+  }
+}
+```
+
+where default is found from aplay -L or aplay -l
+
+Then to switch use:
+
+```
+ALSAPCM='hw:SoundBar' mocp
+```
+
+when starting an application

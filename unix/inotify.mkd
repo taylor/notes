@@ -1,0 +1,1 @@
+while inotifywait  test/msg_test.exs ; do echo "something happened" ; mix test test/msg_test.exs ; done
