@@ -21,3 +21,5 @@ make PREFIX=/path/somewhere install
 install other tasks for easy use
 
 ```mix do archive, local.install```
+
+or set MIX_PATH
