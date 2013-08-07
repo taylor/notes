@@ -11,3 +11,13 @@ ISSUES
 
 l = [" abc"]
 Enum.each(l, fn(x) -> IO.puts String.strip(x)  end)
+
+## install
+
+make PREFIX=/path/somewhere install
+
+### mix
+
+install other tasks for easy use
+
+```mix do archive, local.install```
